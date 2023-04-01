@@ -18,7 +18,7 @@ pipeline{
 
 			steps {
 				echo 'Building..'
-				sh 'docker build -t jose10000/staging-grupo3p:v1.$BUILD_NUMBER .'
+				sh 'docker build -t jose10000/staging-grupo3:v1.$BUILD_NUMBER .'
 			}
 		}
 
